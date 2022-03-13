@@ -64,7 +64,7 @@ function propose(a){
         if(a == chaine[k-1]){
             document.getElementById('devine'+k).value = a;
             nbgagner++;
-            document.getElementById('footer').innerHTML = "<span> Yep, continues comme ça !</span>"
+            document.getElementById('footer').innerHTML = "<span> Yep, continue comme ça !</span>"
         }
         
 
@@ -121,7 +121,7 @@ function propose(a){
     }
     
     if(nbgagner == long){
-        document.getElementById('footer').innerHTML = "<span>Bien joué, vous restez en vie !</span>";
+        document.getElementById('footer').innerHTML = "<span>Bien joué, tu restes en vie !</span>";
         setTimeout('fin()',2000);
 
         for (var i = 0, count = maClass.length; i < count; i++) {
